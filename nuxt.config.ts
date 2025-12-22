@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       provider: 'github', // 'github' or 'gitlab'
       owner: 'KzqKzq', // your GitHub/GitLab username or organization
       repo: 'my-docs', // your repository name
-      branch: 'main', // the branch to commit to (default: main)
+      branch: 'master', // the branch to commit to (default: main)
     }
   }
 })

@@ -1,8 +1,11 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/i18n', 'nuxt-studio'],
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh',
     locales: [{
+      code: 'zh',
+      name: '中文',
+    }, {
       code: 'en',
       name: 'English',
     }, {

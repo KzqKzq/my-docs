@@ -13,10 +13,10 @@ export default defineNuxtConfig({
       name: 'Français',
     }],
   },
-    studio: {
+  studio: {
     // Studio admin route (default: '/_studio')
     route: '/_studio',
-    
+
     // Git repository configuration (owner and repo are required)
     repository: {
       provider: 'github', // 'github' or 'gitlab'
